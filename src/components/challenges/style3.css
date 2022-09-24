@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px red solid;
+  max-width: 900px;
+}
+
+.intro {
+  background: #23424a;
+  color: white;
+  padding: 100px 0;
+}
+
+.intro-text {
+  width: 60%;
+  border: 2px pink solid;
+}
+h1 {
+  font-size: 1.55rem;
+}
+
+p {
+  font-size: 0.75rem;
+}
+
+button {
+  margin-top: 2rem;
+  border-radius: 1.02rem;
+  background-color: #38cfd9;
+  color: black;
+  padding: 0.5rem;
+  border: none;
+  letter-spacing: 0.05em;
+  font-size: 0.68rem;
+}
