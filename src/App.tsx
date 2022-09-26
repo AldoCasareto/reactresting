@@ -14,18 +14,18 @@ import Challenge3 from './components/challenges/Challenge3';
 
 function App() {
   return (
-    // <AppProvider>
-    //   <div className='App'>
-    //     <Application />
-    //     <Skills skills={['HTML', 'CSS', 'JS', 'NodeJS']} />
-    //     <Counter />
-    //     <MuiMode />
-    //   </div>
-    //   <Users />
-    // </AppProvider>
+    <AppProvider>
+      <div className='App'>
+        <Application />
+        <Skills skills={['HTML', 'CSS', 'JS', 'NodeJS']} />
+        <Counter />
+        <MuiMode />
+      </div>
+      <Users />
+    </AppProvider>
     // <ChallengeOne />
     // <Challenge2 />
-    <Challenge3 />
+    // <Challenge3 />
   );
 }
 
